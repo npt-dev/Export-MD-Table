@@ -24,6 +24,4 @@ const exportTableMD = (table) => {
   }
 
   fs.writeFileSync('./mdTable.txt', mdTable)
-
-  return { title, content, mdTable }
 }
