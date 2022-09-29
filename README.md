@@ -1,7 +1,7 @@
 # Export-MD-Table
 
 E.g:
-
+```
 const dataTest = [
   {
     TIME: new Date().getTime(),
@@ -26,6 +26,7 @@ const dataTest = [
 ]
 
 exportTableMD(dataTest)
+```
 
 Results: ./mdTable.txt
 
